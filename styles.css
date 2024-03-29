@@ -14,129 +14,140 @@ body {
   color: var(--white-hover);
   font-family: sans-serif;
 }
-h1{
-    margin-top: 1rem;
-    text-align: center;
+h1 {
+  margin-top: 1rem;
+  text-align: center;
 }
-#search-container{
-    width: 480px;
-    height: auto;
-    min-height: 780px;
-    margin: 1rem auto;
-    background-color: var(--background-2);
-    border-radius: 10px;
-    padding: 1rem;
+#search-container {
+  width: 480px;
+  height: auto;
+  min-height: 780px;
+  margin: 1rem auto;
+  background-color: var(--background-2);
+  border-radius: 10px;
+  padding: 1rem;
 }
-#first-label{
-    display: block;
-    text-align: center;
-}#button-and-input{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
+#first-label {
+  display: block;
+  text-align: center;
 }
-input{
-    margin-right: 10px;
-    width: 180px;
-    font-size: 15px;
-    padding: .5rem;
-    border-radius: 10px;
-    display: inline-block
+#button-and-input {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
-button{
-font-size: 15px;
-padding: .5rem;
-border-radius: 10px;
-background-color: var(--background-1);
-color: var(--white-hover);
-border: none;
-transition: all .5s ease;
+input {
+  margin-right: 10px;
+  width: 180px;
+  font-size: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: inline-block;
 }
-button:hover{
-    background-color: var(--white-hover);
-    color: var(--background-1);
-    cursor: pointer;
+button {
+  font-size: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: var(--background-1);
+  color: var(--white-hover);
+  border: none;
+  transition: all 0.5s ease;
 }
-#img-result{
-    height: 350px;
+button:hover {
+  background-color: var(--white-hover);
+  color: var(--background-1);
+  cursor: pointer;
 }
-#stats-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 1rem;
+#img-result {
+  height: 350px;
 }
-#stats-container div{
-    background-color: var(--background-1);
-    padding: .5rem;
-    border-radius: 10px;
+#stats-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
 }
-#search-container p{
-    display: inline;
+#stats-container div {
+  background-color: var(--background-1);
+  padding: 0.5rem;
+  border-radius: 10px;
 }
-.types{
-width: 30%;
-display: inline-block;
-border-radius: 10px;
-padding: .7rem;
-font-size: .8rem;
-font-weight: 700;
+#search-container p {
+  display: inline;
 }
-.normal{
-    background-color: gray;
+.types {
+  width: 30%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
-.poison{
-    background-color: purple;
+.normal {
+  background-color: gray;
 }
-.psychic{
-    background-color: pink;
+.poison {
+  background-color: purple;
 }
-.grass{
-    background-color: green;
+.psychic {
+  background-color: pink;
+  color: var(--background-1);
 }
-.ground{
-    background-color: brown;
+.grass {
+  background-color: green;
 }
-.ice{
-    background-color: lightblue;
+.ground {
+  background-color: brown;
 }
-.fire{
-    background-color: orangered;
+.ice {
+  background-color: lightblue;
+  color: var(--background-1);
 }
-.rock{
-    background-color: rgb(110, 35, 0);
+.fire {
+  background-color: orangered;
 }
-.dragon{
-    background-color: darkblue;
+.rock {
+  background-color: rgb(110, 35, 0);
 }
-.water{
-    background-color: blue;
+.dragon {
+  background-color: darkblue;
 }
-.bug{
-    background-color: yellowgreen;
+.water {
+  background-color: blue;
 }
-.dark{
-    background-color: var(--background-2);
+.bug {
+  background-color: yellowgreen;
+  color: var(--background-1);
 }
-.fighting{
-    background-color: burlywood;
+.dark {
+  background-color: var(--background-2);
 }
-.ghost{
-    background-color: lightskyblue;
+.fighting {
+  background-color: burlywood;
+  color: var(--background-1);
 }
-.steel{
-    background-color: grey;
+.ghost {
+  background-color: lightskyblue;
+  color: var(--background-1);
 }
-.flying{
-    background-color: lightsteelblue;
+.steel {
+  background-color: grey;
 }
-.electric{
-    background-color: yellow;
+.flying {
+  background-color: lightsteelblue;
+  color: var(--background-1);
 }
-.fairy{
-    background-color: lightcoral;
+.electric {
+  background-color: yellow;
+  color: var(--background-1);
 }
-#sprite{
-    scale: 300%;
-    margin: 7rem 10rem ;
+.fairy {
+  background-color: lightcoral;
+  color: var(--background-1);
 }
-
+#sprite {
+  scale: 300%;
+  margin: 7rem 10rem;
+}
+.hidden {
+  display: none;
+}

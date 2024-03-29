@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" href="MQ.css">
-</head>
-<body>
-    <h1>Pokemon Pokedex App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Search Web App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" href="MQ.css" />
+  </head>
+  <body>
+    <h1>Pokemon Search App</h1>
     <div id="search-container">
-        <label id="first-label" for="user-input">Search for Pokémon Name or ID:</label>
-        <div id="button-and-input">
-        <input type="text" id="user-input">
+      <label id="first-label" for="user-input"
+        >Search for Pokémon Name or ID:</label
+      >
+      <div id="button-and-input">
+        <input required type="text" id="search-input" />
         <button id="search-button">Search</button>
+      </div>
+      <br />
+      <p id="pokemon-name"></p>
+      <p id="pokemon-id"></p>
+      <br />
+      <label id="weight-label" class="hidden" for="weight">Weight:</label>
+      <p class="hidden" id="weight"></p>
+      <br />
+      <label id="height-label" class="hidden" for="height">Height:</label>
+      <p id="height"></p>
+      <div id="img-result"></div>
+      <div id="types"></div>
+      <br />
+      <div id="stats-container">
+        <div>Base</div>
+        <div>Stats</div>
+        <div id="hp-label">HP:</div>
+        <div id="hp"></div>
+        <div id="attack-label">Attack:</div>
+        <div id="attack"></div>
+        <div id="defense-label">Defense:</div>
+        <div id="defense"></div>
+        <div id="special-attack-label">Sp.Attack:</div>
+        <div id="special-attack"></div>
+        <div id="special-defense-label">Sp.Defense:</div>
+        <div id="special-defense"></div>
+        <div id="speed-label">Speed:</div>
+        <div id="speed"></div>
+      </div>
     </div>
-        <br>
-       <p id="pokemon-name"></p>
-        <p id="pokemon-id"></p>
-        <br>
-        <label for="weight">Weight:</label><p id="weight"></p>
-        <br>
-        <label for="height">Height:</label><p id="height"></p>
-        <div id="img-result"></div>
-        <div id="types"></div>
-        <br>
-        <div id="stats-container">
-            <div>Base</div>
-            <div>Stats</div>
-            <div id="hp-label">HP:</div>
-            <div id="hp"></div>
-            <div id="attack-label">Attack:</div>
-            <div id="attack"></div>
-            <div id="defense-label">Defense:</div>
-            <div id="defense"></div>
-            <div id="special-attack-label">Sp.Attack:</div>
-            <div id="special-attack"></div>
-            <div id="special-defense-label">Sp.Defense:</div>
-            <div id="special-defense"></div>
-            <div id="speed-label">Speed:</div>
-            <div id="speed"></div>
-        </div>
-    </div>
-    <script defer src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
