@@ -5,30 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="MQ.css">
 </head>
 <body>
     <h1>Pokemon Pokedex App</h1>
     <div id="search-container">
-        <label for="user-input">Search for Pokémon Name or ID:</label>
+        <label id="first-label" for="user-input">Search for Pokémon Name or ID:</label>
+        <div id="button-and-input">
         <input type="text" id="user-input">
         <button id="search-button">Search</button>
+    </div>
+        <br>
+       <p id="pokemon-name"></p>
+        <p id="pokemon-id"></p>
+        <br>
+        <label for="weight">Weight:</label><p id="weight"></p>
+        <br>
+        <label for="height">Height:</label><p id="height"></p>
         <div id="img-result"></div>
-        <div id="type-container"></div>
+        <div id="types"></div>
+        <br>
         <div id="stats-container">
             <div>Base</div>
             <div>Stats</div>
             <div id="hp-label">HP:</div>
             <div id="hp"></div>
-            <div id="atk-label">Attack:</div>
-            <div id="atk"></div>
-            <div id="def-label">Defense:</div>
-            <div id="def"></div>
-            <div id="sp-atk-label">Sp.Attack:</div>
-            <div id="sp-atk"></div>
-            <div id="sp-def-label">Sp.Defense:</div>
-            <div id="sp-def"></div>
-            <div id="spd-label">Speed:</div>
-            <div id="spd"></div>
+            <div id="attack-label">Attack:</div>
+            <div id="attack"></div>
+            <div id="defense-label">Defense:</div>
+            <div id="defense"></div>
+            <div id="special-attack-label">Sp.Attack:</div>
+            <div id="special-attack"></div>
+            <div id="special-defense-label">Sp.Defense:</div>
+            <div id="special-defense"></div>
+            <div id="speed-label">Speed:</div>
+            <div id="speed"></div>
         </div>
     </div>
     <script defer src="app.js"></script>

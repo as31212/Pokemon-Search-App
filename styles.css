@@ -10,13 +10,13 @@
   box-sizing: border-box;
 }
 body {
-  text-align: center;
   background-color: var(--background-1);
   color: var(--white-hover);
   font-family: sans-serif;
 }
 h1{
     margin-top: 1rem;
+    text-align: center;
 }
 #search-container{
     width: 480px;
@@ -26,17 +26,22 @@ h1{
     background-color: var(--background-2);
     border-radius: 10px;
     padding: 1rem;
-
 }
-label{
+#first-label{
     display: block;
+    text-align: center;
+}#button-and-input{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 input{
-    margin: 1rem;
+    margin-right: 10px;
     width: 180px;
     font-size: 15px;
     padding: .5rem;
     border-radius: 10px;
+    display: inline-block
 }
 button{
 font-size: 15px;
@@ -65,3 +70,73 @@ button:hover{
     padding: .5rem;
     border-radius: 10px;
 }
+#search-container p{
+    display: inline;
+}
+.types{
+width: 30%;
+display: inline-block;
+border-radius: 10px;
+padding: .7rem;
+font-size: .8rem;
+font-weight: 700;
+}
+.normal{
+    background-color: gray;
+}
+.poison{
+    background-color: purple;
+}
+.psychic{
+    background-color: pink;
+}
+.grass{
+    background-color: green;
+}
+.ground{
+    background-color: brown;
+}
+.ice{
+    background-color: lightblue;
+}
+.fire{
+    background-color: orangered;
+}
+.rock{
+    background-color: rgb(110, 35, 0);
+}
+.dragon{
+    background-color: darkblue;
+}
+.water{
+    background-color: blue;
+}
+.bug{
+    background-color: yellowgreen;
+}
+.dark{
+    background-color: var(--background-2);
+}
+.fighting{
+    background-color: burlywood;
+}
+.ghost{
+    background-color: lightskyblue;
+}
+.steel{
+    background-color: grey;
+}
+.flying{
+    background-color: lightsteelblue;
+}
+.electric{
+    background-color: yellow;
+}
+.fairy{
+    background-color: lightcoral;
+}
+#sprite{
+    scale: 300%;
+    margin: 7rem 10rem ;
+}
+
